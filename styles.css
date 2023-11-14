@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a:active { /* visited deixa o link visitado*/
+    color: #ff0000;
+}
+
+p:hover {
+    color: #f47878;
+}
+
+input:checked { /*disabled*/
+    width: 100px;
+    height: 100px;
+}
+
+button:focus {
+    border: 2px solid #ed7747;
+}
+
+/* read-only*/
+
+.container {
+    height: 100px;
+    width: 100px;
+    background: #ce7ce7;
+}
+
+.container:empty {
+    background: #a5a5;
+}
+
+li:first-child { /*last-child última, nth-child(2), nth-last-child(1)*/
+    color: #ff0000;
+}
+
+span:first-of-type {
+    color: #ce7ce7;
+}
+
+.not :not(p) {
+    color: #f47878;
+}

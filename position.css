@@ -1,0 +1,47 @@
+/*
+position static - padrão
+position fixed - fixa o elemento na tela
+position sticky - age como um adesivo, fixa o elemento só onde eu determinar
+position relative - posição relativa a posição inicial dele
+position absolute - posição absoluta (fixa)
+
+propriedades
+top
+bottom
+left
+right
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 1500px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+    background: #7f6ff0;
+    transition: 0.3s;
+    color: #ffff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+nav {
+    margin: 0 40px 0;
+    padding-top: 270px;
+    text-align: justify;
+    transition: .3s;
+    font-size: 30px;
+}
+
